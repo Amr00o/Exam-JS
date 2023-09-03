@@ -1,0 +1,128 @@
+#sideBar
+{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.sideBar-inner
+{
+    background-color: black;
+    padding: 20px;
+}
+.sideBar-inner a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 90px;
+    padding: 10px;
+}
+.nav-bar
+{
+    width: 70px;
+}
+.nav-bar i
+{
+    cursor: pointer;
+}
+.photo
+{
+    width: 50px;
+    margin-left: 10px;
+}
+#loading
+{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+} 
+.loader 
+{
+    position: absolute;
+    left: 47%;
+    top: 42%;
+    width: 52px;
+    height: 52px;
+    border: 8px solid white;
+    border-bottom-color: rgb(174, 165, 165);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}     
+.information
+{
+    margin-top: 270px;
+}
+.caption
+{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6d9;
+    top: 100%;
+    transition: .5s;
+}
+.item:hover .caption
+{
+    top: 0;
+}
+.caption p
+{
+    margin-top: 88px;
+    margin-left: 0;
+}
+.caption2
+{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6d9;
+    top: 100%;
+    transition: .5s;
+}
+.item:hover .caption2
+{
+    top: 0;
+}
+.caption2 p
+{
+    font-size: 16px;
+}
+.col-md-3
+{
+    text-align: center;
+    cursor: pointer;
+}
+.searchInp input
+{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0.375rem;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    color: white;
+}
+.cont input
+{
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    appearance: none;
+}
+

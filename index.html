@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="icon" href="img/logo - .ico">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/hover-min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body class="bg-black">
+    <section id="loading">
+        <span class="loader"></span>
+      </section>
+      
+
+    <section id="sideBar">
+        <div class="sideBar-inner">
+            <a id="searchLink" href="#" >Search</a>
+            <a id="categoriesLink" href="#" >Categories</a>
+            <a id="areaLink" href="#" >Area</a>
+            <a id="ingLink" href="#" >Ingredients</a>
+            <a id="conLink" href="#" >Contact Us</a>
+            <div class="information text-white">
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div>
+                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+            </div>
+        </div>
+        </div>
+        <div class="nav-bar d-flex flex-column justify-content-between py-3 bg-white text-black text-center">
+        <img src="img/logo.png" class="photo " alt="">
+        <i class="fa-solid fa-bars fa-2x"></i>
+        <div class="icon">
+            <i class="fa-solid fa-globe d-block"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+
+    </section>
+
+
+
+    <!-- home -->
+
+    <section id="home">
+    <div class="container mt-4">
+        <div id="apiItem" class="row py-4 g-4">
+            
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- search -->
+
+
+    <section id="search" style="display: none;">
+        <div class="container mt-4 position-relative">
+            <div class="row">
+                <div class="searchInp col-md-6">
+                    <input id="searchByName" type="text" placeholder="Search By Name">
+                </div>
+                <div class="searchInp col-md-6">
+                    <input id="searchByFirstLetter" type="text" placeholder="Search By First Letter">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- categories -->  
+
+
+    <section id="categories" style="display: none;">
+    <div class="container mt-4">
+        <div id="apiCat" class="row py-4 g-4">
+            
+        </div>
+    </div>
+     </section>
+
+
+    <!-- area -->  
+
+
+    <section id="area" style="display: none;">
+        <div class="container mt-4">
+            <div class="mainContainer row py-4 g-4"></div>
+        </div>
+    </section>
+
+
+    <!-- ingredients -->  
+
+
+    <section id="ingredients" style="display: none;">
+        <div class="container mt-4">
+            <div class="mainCont row py-4 g-4"></div>
+        </div>
+    </section>
+
+
+
+    <!-- contact -->
+
+
+    <section id="contact" style="display: none;">
+        <div class="container">
+            <div class="row py-4 g-5">
+                <div class="cont min-vh-100 d-flex justify-content-center align-items-center">
+                    <div class="container w-75 text-center">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <input id="name" type="text" placeholder="Enter Your Name">
+                                <div id="nameError" class="text-danger"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="email" type="email" placeholder="Enter Your Email">
+                                <div id="emailError" class="text-danger"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="phone" type="text" placeholder="Enter Your Phone">
+                                <div id="phoneError" class="text-danger"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="age" type="number" placeholder="Enter Your Age">
+                                <div id="ageError" class="text-danger"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="password" type="password" placeholder="Enter Your Password">
+                                <div id="passwordError" class="text-danger"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <input id="repassword" type="password" placeholder="Enter Your Repassword">
+                                <div id="repasswordError" class="text-danger"></div>
+                            </div>
+                        </div>
+                        <button id="submitBtn" class="btn btn-outline-danger px-2 mt-3" disabled>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
